@@ -79,7 +79,7 @@ class _DetailViewState extends State<DetailView> {
             child: Container(
                 decoration: BoxDecoration(boxShadow: [
                   BoxShadow(
-                      color: Colors.black.withOpacity(0.25), blurRadius: 10),
+                      color: Colors.black.withOpacity(0.2), blurRadius: 10),
                 ]),
                 child: widget.icon),
           )
